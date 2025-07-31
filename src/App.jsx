@@ -1,11 +1,11 @@
 import { useState } from 'react'
+import PrincipalMessage from './pages/PrincipalMessage'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1>Vishwa Bharti</h1>
+      <PrincipalMessage/>
     </>
   )
 }
